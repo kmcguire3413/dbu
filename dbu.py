@@ -29,7 +29,7 @@ BLOCK_TYPE_UNKNOWN = 0
 BLOCK_TYPE_NTFSCLONE = 1
 BLOCK_TYPE_UNKNOWNPART = 2
 
-BACKUP_DEVICE = '/dev/sdb'
+BACKUP_DEVICE = '/dev/sda'
 
 def get_uid_for_system():
 	p = subprocess.Popen(['dmidecode'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
